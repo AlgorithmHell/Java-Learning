@@ -28,7 +28,7 @@ public class Sort {
         }
         return iterations;
     }
-    public static int SelectSort(int[] arr)
+    public static int SelectionSort(int[] arr)
     {
         int iterations=0;
         for(int i=0;i<arr.length-1;i++)
@@ -49,7 +49,7 @@ public class Sort {
         }
         return iterations;
     }
-    public static int InsertSort(int[] arr)
+    public static int InsertionSort(int[] arr)
     {
         int iterations=0;
         for(int i=1;i<arr.length;i++)

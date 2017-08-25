@@ -3,8 +3,8 @@ package Main; /**
  */
 import java.util.Scanner;
 import static StandartAlgos.Sort.BubbleSort;
-import static StandartAlgos.Sort.InsertSort;
-import static StandartAlgos.Sort.SelectSort;
+import static StandartAlgos.Sort.InsertionSort;
+import static StandartAlgos.Sort.SelectionSort;
 
 public class Main {
     public static void main(String[] args)
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("");
 ///Use of Sort
 
-        iterations=InsertSort(arr);
+        iterations=InsertionSort(arr);
 
 
 
