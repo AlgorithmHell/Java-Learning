@@ -1,0 +1,5 @@
+﻿  Source.cpp
+g:\helga\logic way\deletefiles\deletefiles\source.cpp(25): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+g:\helga\logic way\deletefiles\deletefiles\source.cpp(41): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+  DeleteFiles.vcxproj -> G:\Helga\Logic Way\DeleteFiles\Debug\DeleteFiles.exe
+  DeleteFiles.vcxproj -> G:\Helga\Logic Way\DeleteFiles\Debug\DeleteFiles.pdb (Full PDB)
