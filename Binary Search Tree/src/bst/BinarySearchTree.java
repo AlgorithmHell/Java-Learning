@@ -28,10 +28,13 @@ public class BinarySearchTree<T extends  Comparable<T>> {
         this.root = null;
     }
 
+    public String getRoot() {
+        return root.value.toString();
+    }
+
     public boolean find(T value) {
         Node current = root;
         for (; current != null; current = (value.compareTo(current.value) < 0) ? current.left : current.right) {
-            System.out.println(current.value);
             if (current.value.equals(value)) return true;
         }
         return false;
@@ -106,6 +109,7 @@ public class BinarySearchTree<T extends  Comparable<T>> {
      }
      @Nullable
      private Node delete(Node root, T value) {
+        if(!find(value)) return root;
         if(root==null) return root;
         if(value.compareTo(root.value)<0) root.left= delete(root.left,value);
         else {

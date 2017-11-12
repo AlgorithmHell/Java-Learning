@@ -39,7 +39,7 @@ public class ChristmasTree  implements Comparable<ChristmasTree>{
     }
 
     public int weight(){
-        int weight=1;
+        int weight=0;
         for(int i=0;i<height;i++){
             for(int j=0;j<tree[i].length;j++){
                 weight+=tree[i][j];
