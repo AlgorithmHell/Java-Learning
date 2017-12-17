@@ -6,19 +6,19 @@ import org.jetbrains.annotations.Nullable;
  * Created by Helga on 10/29/2017.
  */
 public class BinarySearchTree<T extends  Comparable<T>> {
-    private class Node {
-        private T value;
-        private Node left;
-        private Node right;
+    public class Node {
+        public T value;
+        public Node left;
+        public Node right;
 
-        private Node(T value) {
+        public Node(T value) {
             this.value = value;
             this.left = null;
             this.right = null;
         }
     }
 
-    private Node root;
+    public Node root;
 
     public BinarySearchTree(T root) {
         this.root = new Node(root);
@@ -31,6 +31,8 @@ public class BinarySearchTree<T extends  Comparable<T>> {
     public String getRoot() {
         return root.value.toString();
     }
+
+    public Node getRootForTask() { return root;}
 
     public boolean find(T value) {
         Node current = root;

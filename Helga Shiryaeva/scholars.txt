@@ -1,0 +1,11 @@
+Alexeenko Gymnasium#50 9.6 11 5
+Shiryaeva Lyceum#1 9.6 11 1
+Drozd Gymnasium#50 9.8 10 5
+Buiko School#29 8.5 9 4
+Shuldov Gymnasium#50 10.0 8 4
+Medyanikov School#1 9.0 8 3
+Natalevich School#1 10.0 9  4
+Tolstaya School#209 7.9 11 5
+Terehin School#41 9.9 6 4
+Yanchevski School#12 7.0 1 1
+Izobova Lyceum#1 9.9 11 5

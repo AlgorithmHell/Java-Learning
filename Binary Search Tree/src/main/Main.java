@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.Stack;
 
 /**
  * Created by Helga on 10/29/2017.
@@ -15,7 +16,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String...args){
         try{
-            treeExample();
+            testLCA();
         }
 
         catch (NumberFormatException e) {
@@ -121,5 +122,56 @@ public class Main {
             System.out.println(e.getMessage()+ " File not found");
         }
 
+    }
+
+    private static void testLCA(){
+
+        BinarySearchTree<Integer> binarySearchTree = new BinarySearchTree<>(2);
+        binarySearchTree.insert(1);
+        binarySearchTree.insert(5);
+        binarySearchTree.insert(6);
+        binarySearchTree.insert(3);
+        binarySearchTree.insert(4);
+
+        System.out.println(LCA( binarySearchTree.root,4, 6));
+    }
+
+
+    private static Integer LCA(BinarySearchTree.Node root, Integer a, Integer b) {
+        if(root == null) return null;
+        if(a.equals(b)) return a;
+        if(a.compareTo(0) <= 0 || b.compareTo(0) <= 0 ) {
+
+            return -1;
+
+        }
+        Stack <Integer> firstPath = path(root, a);
+        Stack <Integer> secondPath = path(root, b);
+
+        while(firstPath.peek().compareTo(secondPath.peek()) != 0) {
+            firstPath.pop();
+            secondPath.pop();
+        }
+
+        return firstPath.peek();
+    }
+
+    private static Stack<Integer> path(BinarySearchTree.Node root, Integer value) {
+
+
+        Stack<Integer> stack = new Stack<>();
+        if(root == null) {
+            // stack.pop();
+            return stack;
+        }
+        stack.push((Integer) root.value);
+        if(root.value == value){
+            return stack;
+        }
+
+
+        stack.addAll(path(root.left, value));
+        stack.addAll(path(root.right, value));
+        return stack;
     }
 }
