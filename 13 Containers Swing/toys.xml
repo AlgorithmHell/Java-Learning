@@ -1,0 +1,87 @@
+<toys>
+	<toy>
+		<name name =  " Guns " />
+		<price name = "20" />
+		<leftEdge name = "12" />
+		<rightEdge name = "15" />
+	</toy>	<toy>
+		<name name =  " Locomotives " />
+		<price name = "40" />
+		<leftEdge name = "8" />
+		<rightEdge name = "13" />
+	</toy>	<toy>
+		<name name =  " Magnets " />
+		<price name = "30" />
+		<leftEdge name = "4" />
+		<rightEdge name = "9" />
+	</toy>	<toy>
+		<name name =  " Sticks " />
+		<price name = "10" />
+		<leftEdge name = "3" />
+		<rightEdge name = "5" />
+	</toy>	<toy>
+		<name name =  " Puzzles " />
+		<price name = "5" />
+		<leftEdge name = "5" />
+		<rightEdge name = "12" />
+	</toy>	<toy>
+		<name name =  " Soldiers " />
+		<price name = "10" />
+		<leftEdge name = "8" />
+		<rightEdge name = "12" />
+	</toy>	<toy>
+		<name name =  " Skates " />
+		<price name = "30" />
+		<leftEdge name = "10" />
+		<rightEdge name = "15" />
+	</toy>	<toy>
+		<name name =  " Puppets " />
+		<price name = "25" />
+		<leftEdge name = "3" />
+		<rightEdge name = "12" />
+	</toy>	<toy>
+		<name name =  " Instruments " />
+		<price name = "60" />
+		<leftEdge name = "4" />
+		<rightEdge name = "15" />
+	</toy>	<toy>
+		<name name =  " Phones " />
+		<price name = "100" />
+		<leftEdge name = "8" />
+		<rightEdge name = "15" />
+	</toy>	<toy>
+		<name name =  " Kites " />
+		<price name = "20" />
+		<leftEdge name = "11" />
+		<rightEdge name = "13" />
+	</toy>	<toy>
+		<name name =  " Marbles " />
+		<price name = "30" />
+		<leftEdge name = "4" />
+		<rightEdge name = "8" />
+	</toy>	<toy>
+		<name name =  " Footballs " />
+		<price name = "110" />
+		<leftEdge name = "8" />
+		<rightEdge name = "15" />
+	</toy>	<toy>
+		<name name =  " RadioToys " />
+		<price name = "70" />
+		<leftEdge name = "9" />
+		<rightEdge name = "15" />
+	</toy>	<toy>
+		<name name =  " Jacks " />
+		<price name = "19" />
+		<leftEdge name = "11" />
+		<rightEdge name = "12" />
+	</toy>	<toy>
+		<name name =  " Pails " />
+		<price name = "20" />
+		<leftEdge name = "10" />
+		<rightEdge name = "11" />
+	</toy>	<toy>
+		<name name =  " Animals " />
+		<price name = "50" />
+		<leftEdge name = "4" />
+		<rightEdge name = "9" />
+	</toy></toys>
